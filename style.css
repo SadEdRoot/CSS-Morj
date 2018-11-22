@@ -1,0 +1,174 @@
+.container {
+	background-color: #4c4;
+	height: 250px;
+	width: 250px;
+	position: relative;
+}
+
+.head {
+	position: absolute;
+	top: 60px;
+	left: 20%;
+	height: 120px;
+	width: 140px;
+	background-color: rosybrown;
+	border-radius: 55px;
+	
+}
+
+.hole {
+	position: absolute;
+	top: 7px;
+	left: 95px;
+	height: 25px;
+	width: 25px;
+	background-color: skyblue;
+	border-radius: 75% 0 75%  75% ;
+	transform: rotate(-45deg)
+}
+
+
+.eye {
+	position: absolute;
+	background-color: black;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	top: 70px;
+}
+
+.eye1 {
+	left: 45px;
+}
+
+
+.eye2 {
+	left: 85px;
+}
+.tooth {
+	position: absolute;
+	background-color: lightgoldenrodyellow;
+	height: 50px;
+	width: 8px;
+	border-radius: 0 0 50% 50% ;
+}
+
+.tooth1 {
+	bottom: 15px;
+	left: 85px;
+	
+}
+
+.tooth2 {
+	bottom: 15px;
+	left: 150px;
+
+}
+
+.cheek {
+	position: absolute;
+	
+	height: 45px;
+	width: 75px;
+	background-color: darksalmon;
+	border-radius: 55px;
+}
+
+.cheek1 {
+	top: 155px;
+	left: 20%;
+	transform: rotate(-15deg);
+}
+
+.cheek2 {
+	top: 155px;
+	right: 22%;	
+	transform: rotate(13deg);
+}
+
+.mouth {
+	position: absolute;
+	top: 145px;
+	left: 110px;
+	height: 20px;
+	width: 25px;
+	background-color: black;
+	border-radius: 50%;
+}
+
+
+
+.sali {
+	position: absolute;
+	background-color: black;
+	width: 5px;
+	height: 35px;
+}
+
+.sali1 {
+	bottom: 70px;
+	left: 50px;
+	transform: rotate(106deg);
+}
+.sali2 {
+	bottom: 50px;
+	left: 45px;
+	transform: rotate(85deg);
+}
+.sali3 {
+	bottom: 35px;
+	left: 50px;
+	transform: rotate(-120deg);
+}
+
+.sali4 {
+	bottom: 70px;
+	right: 50px;
+	transform: rotate(-106deg);
+}
+.sali5 {
+	bottom: 50px;
+	right: 45px;
+	transform: rotate(-85deg);
+}
+.sali6 {
+	bottom: 35px;
+	right: 50px;
+	transform: rotate(110deg);
+}
+
+.dot {
+	position: absolute;
+	background-color: black;
+	width: 5px;
+	height: 5px;
+	border-radius: 100%;
+}
+
+.dot1 {
+	bottom: 75px;
+	right: 75px;
+}
+
+.dot2 {
+	bottom: 65px;
+	right: 85px;
+}
+.dot3 {
+	bottom: 80px;
+	right: 85px;
+}
+
+.dot4 {
+	bottom: 75px;
+	left: 75px;
+}
+
+.dot5 {
+	bottom: 65px;
+	left: 85px;
+}
+.dot6 {
+	bottom: 80px;
+	left: 85px;
+}
